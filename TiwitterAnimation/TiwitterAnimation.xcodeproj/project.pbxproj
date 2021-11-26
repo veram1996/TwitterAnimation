@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C15BCC42751514000184924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BCC32751514000184924 /* AppDelegate.swift */; };
 		1C15BCC62751514000184924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BCC52751514000184924 /* SceneDelegate.swift */; };
-		1C15BCC82751514000184924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BCC72751514000184924 /* ViewController.swift */; };
+		1C15BCC82751514000184924 /* TiwtterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BCC72751514000184924 /* TiwtterViewController.swift */; };
 		1C15BCCB2751514000184924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCC92751514000184924 /* Main.storyboard */; };
 		1C15BCCD2751514500184924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCCC2751514500184924 /* Assets.xcassets */; };
 		1C15BCD02751514500184924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCCE2751514500184924 /* LaunchScreen.storyboard */; };
@@ -42,13 +42,14 @@
 		1C15BD0F275151F200184924 /* tile02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCF2275151F200184924 /* tile02.png */; };
 		1C15BD10275151F200184924 /* tile00.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCF3275151F200184924 /* tile00.png */; };
 		1C15BD11275151F200184924 /* tile01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCF4275151F200184924 /* tile01.png */; };
+		1C15BD1327515D9B00184924 /* BasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C15BCC02751514000184924 /* TiwitterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiwitterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C15BCC32751514000184924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C15BCC52751514000184924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C15BCC72751514000184924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C15BCC72751514000184924 /* TiwtterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiwtterViewController.swift; sourceTree = "<group>"; };
 		1C15BCCA2751514000184924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C15BCCC2751514500184924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C15BCCF2751514500184924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		1C15BCF2275151F200184924 /* tile02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile02.png; sourceTree = "<group>"; };
 		1C15BCF3275151F200184924 /* tile00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile00.png; sourceTree = "<group>"; };
 		1C15BCF4275151F200184924 /* tile01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile01.png; sourceTree = "<group>"; };
+		1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +119,12 @@
 				1C15BCC32751514000184924 /* AppDelegate.swift */,
 				1C15BCC52751514000184924 /* SceneDelegate.swift */,
 				1C15BCD7275151F200184924 /* heartsprite */,
-				1C15BCC72751514000184924 /* ViewController.swift */,
+				1C15BCC72751514000184924 /* TiwtterViewController.swift */,
 				1C15BCC92751514000184924 /* Main.storyboard */,
 				1C15BCCC2751514500184924 /* Assets.xcassets */,
 				1C15BCCE2751514500184924 /* LaunchScreen.storyboard */,
 				1C15BCD12751514500184924 /* Info.plist */,
+				1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */,
 			);
 			path = TiwitterAnimation;
 			sourceTree = "<group>";
@@ -261,8 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C15BCC82751514000184924 /* ViewController.swift in Sources */,
+				1C15BCC82751514000184924 /* TiwtterViewController.swift in Sources */,
 				1C15BCC42751514000184924 /* AppDelegate.swift in Sources */,
+				1C15BD1327515D9B00184924 /* BasicAnimationViewController.swift in Sources */,
 				1C15BCC62751514000184924 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

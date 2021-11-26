@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TiwtterViewController: UIViewController {
     let imageView: UIImageView = {
         let iv = UIImageView()
         iv.isUserInteractionEnabled = true
