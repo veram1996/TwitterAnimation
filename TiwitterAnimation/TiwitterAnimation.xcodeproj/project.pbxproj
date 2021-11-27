@@ -43,6 +43,8 @@
 		1C15BD10275151F200184924 /* tile00.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCF3275151F200184924 /* tile00.png */; };
 		1C15BD11275151F200184924 /* tile01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C15BCF4275151F200184924 /* tile01.png */; };
 		1C15BD1327515D9B00184924 /* BasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */; };
+		1C15BD152751647000184924 /* ButtonAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BD142751647000184924 /* ButtonAnimationViewController.swift */; };
+		1C15BD17275164B100184924 /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15BD16275164B100184924 /* AnimationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		1C15BCF3275151F200184924 /* tile00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile00.png; sourceTree = "<group>"; };
 		1C15BCF4275151F200184924 /* tile01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile01.png; sourceTree = "<group>"; };
 		1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationViewController.swift; sourceTree = "<group>"; };
+		1C15BD142751647000184924 /* ButtonAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationViewController.swift; sourceTree = "<group>"; };
+		1C15BD16275164B100184924 /* AnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				1C15BCCE2751514500184924 /* LaunchScreen.storyboard */,
 				1C15BCD12751514500184924 /* Info.plist */,
 				1C15BD1227515D9B00184924 /* BasicAnimationViewController.swift */,
+				1C15BD142751647000184924 /* ButtonAnimationViewController.swift */,
+				1C15BD16275164B100184924 /* AnimationButton.swift */,
 			);
 			path = TiwitterAnimation;
 			sourceTree = "<group>";
@@ -264,10 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C15BD17275164B100184924 /* AnimationButton.swift in Sources */,
 				1C15BCC82751514000184924 /* TiwtterViewController.swift in Sources */,
 				1C15BCC42751514000184924 /* AppDelegate.swift in Sources */,
 				1C15BD1327515D9B00184924 /* BasicAnimationViewController.swift in Sources */,
 				1C15BCC62751514000184924 /* SceneDelegate.swift in Sources */,
+				1C15BD152751647000184924 /* ButtonAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
